@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/reddify/static/js/main.b76aa7ab.chunk.js",
+    "main.js.map": "/reddify/static/js/main.b76aa7ab.chunk.js.map",
+    "runtime-main.js": "/reddify/static/js/runtime-main.c0053636.js",
+    "runtime-main.js.map": "/reddify/static/js/runtime-main.c0053636.js.map",
+    "static/js/2.c791debc.chunk.js": "/reddify/static/js/2.c791debc.chunk.js",
+    "static/js/2.c791debc.chunk.js.map": "/reddify/static/js/2.c791debc.chunk.js.map",
+    "index.html": "/reddify/index.html",
+    "precache-manifest.5ade554a69d301fa0ccf956699afd4a5.js": "/reddify/precache-manifest.5ade554a69d301fa0ccf956699afd4a5.js",
+    "service-worker.js": "/reddify/service-worker.js",
+    "static/js/2.c791debc.chunk.js.LICENSE.txt": "/reddify/static/js/2.c791debc.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c0053636.js",
+    "static/js/2.c791debc.chunk.js",
+    "static/js/main.b76aa7ab.chunk.js"
+  ]
+}
