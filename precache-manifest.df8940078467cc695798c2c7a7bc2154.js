@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed7190a07a7e29a11d7cf9b2f7235d38",
+    "revision": "9bd7091108d6948b5b99d1ccd255750b",
     "url": "/reddify/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reddify/static/js/2.faa5a75f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "201f4f9a4fce9a1303e9",
-    "url": "/reddify/static/js/main.b8786b5c.chunk.js"
+    "revision": "39027a9e69bc4410118b",
+    "url": "/reddify/static/js/main.5c5d8605.chunk.js"
   },
   {
     "revision": "ecb5dd086d1646b62c95",
