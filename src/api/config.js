@@ -9,7 +9,7 @@ const getUUID = () => {
 
 export const redditConfig = {
   SCOPE: `identity,edit,flair,history,modconfig,modflair,modlog,modposts,modwiki,mysubreddits,privatemessages,read,report,save,submit,subscribe,vote,wikiedit,wikiread`,
-  REDIRECT_URI: 'http://localhost:3000',
+  REDIRECT_URI: process.env.REACT_APP_REDDIT_REDIRECT,
   CLIENT_ID: process.env.REACT_APP_REDDIT_CLIENT_ID,
   RESPONSE_TYPE: 'code',
   STATE: getUUID(),
