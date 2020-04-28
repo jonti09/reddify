@@ -34,23 +34,23 @@ function Search(props) {
 
   const sortOptions = [
     {
-      name: 'hot',
+      value: 'hot',
       label: 'Hot',
     },
     {
-      name: 'relevance',
+      value: 'relevance',
       label: 'Related',
     },
     {
-      name: 'top',
+      value: 'top',
       label: 'Top',
     },
     {
-      name: 'new',
+      value: 'new',
       label: 'New',
     },
     {
-      name: 'comments',
+      value: 'comments',
       label: 'Comments',
     },
   ];

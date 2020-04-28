@@ -18,17 +18,17 @@ function Posts(props) {
         {posts.map((post) => {
           let content = post['data'];
           return (
-            <div class="card">
-              <img src={content['url']} class="card-img-top" alt="" />
-              <div class="card-body ">
-                <h5 class="card-title">
+            <div className="card" key={content['id']}>
+              <img src={content['url']} className="card-img-top" alt="" />
+              <div className="card-body ">
+                <h5 className="card-title">
                   <a href={`${redditBaseUrl}${content['permalink']}`}>{content['title']}</a>
                 </h5>
-                <p class="card-text">{getDisplayText(content['selftext'])}</p>
+                <p className="card-text">{getDisplayText(content['selftext'])}</p>
               </div>
-              <footer class="card-footer">
+              <footer className="card-footer">
                 <a
-                  class="btn btn-outline-primary btn-sm"
+                  className="btn btn-outline-primary btn-sm"
                   href={`${redditBaseUrl}/${content['subreddit_name_prefixed']}`}
                 >
                   {content['subreddit_name_prefixed']}
