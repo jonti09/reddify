@@ -5,7 +5,7 @@ function Posts(props) {
   const redditBaseUrl = 'https://reddit.com';
 
   const getDisplayText = (text) => {
-    if (text.length > 255) {
+    if (text && text.length > 255) {
       return `${text.substr(0, 253)} ...`;
     } else {
       return text;
