@@ -100,7 +100,7 @@ export const getToken = async (code) => {
     },
   });
   refreshToken();
-  window.location.replace('/');
+  window.location.replace(redditConfig['REDIRECT_URI']);
 };
 
 export const getSavedPosts = async () => {
@@ -111,5 +111,5 @@ export const getSavedPosts = async () => {
   });
 
   console.log(data);
-  return data
+  return data;
 };
