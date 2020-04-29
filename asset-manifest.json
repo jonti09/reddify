@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/reddify/static/js/main.4f882630.chunk.js",
+    "main.js": "/reddify/static/js/main.f188423d.chunk.js",
     "runtime-main.js": "/reddify/static/js/runtime-main.c0053636.js",
     "static/js/2.8dc51552.chunk.js": "/reddify/static/js/2.8dc51552.chunk.js",
     "index.html": "/reddify/index.html",
-    "precache-manifest.77d04ce138daaedda8541f534e93d512.js": "/reddify/precache-manifest.77d04ce138daaedda8541f534e93d512.js",
+    "precache-manifest.93529b48b79e811a89a9b7ca86de68ce.js": "/reddify/precache-manifest.93529b48b79e811a89a9b7ca86de68ce.js",
     "service-worker.js": "/reddify/service-worker.js",
     "static/js/2.8dc51552.chunk.js.LICENSE.txt": "/reddify/static/js/2.8dc51552.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.c0053636.js",
     "static/js/2.8dc51552.chunk.js",
-    "static/js/main.4f882630.chunk.js"
+    "static/js/main.f188423d.chunk.js"
   ]
 }
